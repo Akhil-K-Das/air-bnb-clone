@@ -1,0 +1,39 @@
+<div id="modal-wrapper" 
+    data-controller="modal" 
+    class="hidden relative z-10" 
+    aria-labelledby="modal-title" 
+    role="dialog" 
+    aria-modal="true"
+>
+    <div class= "hidden" id= "modal-trigger" data-action= "click->modal#showModal"></div>
+    <div id="modal-backdrop" 
+        class=" hidden fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" 
+        data-transition-enter="ease-out duration-300"
+        data-transition-enter-start="opacity-0"
+        data-transition-enter-end="opacity-100"
+        data-transition-leave="ease-in duration-200"
+        data-transition-leave-start="opacity-100"
+        data-transition-leave-end="opacity-0"
+    ></div>
+
+    <div 
+        tabindex="-1" 
+        class="fixed inset-0 z-50 flex justify-center items-center bg-black bg-opacity-50"
+    >
+        <div id="modal-panel"
+            class="relative p-4 w-full max-w-md max-h-full"
+            data-transition-enter="ease-out duration-300"
+            data-transition-enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+            data-transition-enter-end="opacity-100 translate-y-0 sm:scale-100"
+            data-transition-leave="ease-in duration-200"
+            data-transition-leave-start="opacity-100 translate-y-0 sm:scale-100"
+            data-transition-leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        >
+            <div class="relative bg-white rounded-lg ">
+                <div class="p-4 md:p-2 divide-y divide-gray-100"> 
+                    <%= render modal_content %>   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

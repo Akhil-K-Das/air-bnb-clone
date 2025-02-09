@@ -1,0 +1,13 @@
+=> [32m#<Profile:0x00007f08e3a8b130[0m
+ id: [1;34m2[0m,
+ user_id: [1;34m1[0m,
+ address_1: [31m[1;31m"[0m[31m115 N Wallace Wilknson Blvd[1;31m"[0m[31m[0m,
+ address_2: [1;36mnil[0m,
+ city: [31m[1;31m"[0m[31mLiberty[1;31m"[0m[31m[0m,
+ state: [31m[1;31m"[0m[31mKY[1;31m"[0m[31m[0m,
+ country: [1;36mnil[0m,
+ latitude: [1;36mnil[0m,
+ longitude: [1;36mnil[0m,
+ created_at: [31m[1;31m"[0m[31m2025-01-19 08:17:24.467966000 +0000[1;31m"[0m[31m[0m,
+ updated_at: [31m[1;31m"[0m[31m2025-01-19 08:37:56.938316000 +0000[1;31m"[0m[31m[0m,
+ zip_code: [31m[1;31m"[0m[31m42539[1;31m"[0m[31m[0m[32m>[0m

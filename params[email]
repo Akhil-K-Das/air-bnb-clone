@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/blackstone/rails_projects/air_bnb/airbnb-clone/spec/requests/api/users_by_emails_spec.rb:13 :
+
+     [1;34m8[0m:        { [31m[1;31m"[0m[31mACCEPT[1;31m"[0m[31m[0m => [31m[1;31m"[0m[31mapplication/json[1;31m"[0m[31m[0m }
+     [1;34m9[0m:     [32mend[0m
+    [1;34m10[0m:     context [31m[1;31m"[0m[31mwhen user exists[1;31m"[0m[31m[0m [32mdo[0m
+    [1;34m11[0m:       it [31m[1;31m"[0m[31mreturns success status[1;31m"[0m[31m[0m [32mdo[0m
+    [1;34m12[0m:         user = create([33m:user[0m)
+ => [1;34m13[0m:         binding.pry
+    [1;34m14[0m:         get api_users_by_emailss_path, [35mparams[0m: {[35memail[0m: user.email}, [35mheaders[0m: headers
+    [1;34m15[0m:         expect(response).to be_successful
+    [1;34m16[0m:       [32mend[0m
+    [1;34m17[0m:     [32mend[0m
+    [1;34m18[0m: 
+
